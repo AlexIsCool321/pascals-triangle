@@ -1,13 +1,10 @@
 {
   "langrev": "1",
   "warnings": [ "no-unused" ],
-  "linked-libraries": [ "glfw" ],
-  "dependency-search-paths": [ "lib" ],
-  "dependencies": [ ],
+  "linked-libraries": [ "glfw", "GL", "dl", "m" ],
   "authors": [ ],
   "version": "0.1.0",
   "sources": [ "src/**" ],
-  "test-sources": [ "test/**" ],
   "build-dir": "build",
   "output": "build",
   
